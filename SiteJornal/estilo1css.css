@@ -19,7 +19,7 @@ header {
     font-family: 'Anton', sans-serif;
     color: orange;
 }
-#noticia{
+.noticia{
     font-size: 25px;
     font-family: 'Playfair Display', serif;
     width: 30%;
@@ -27,6 +27,8 @@ header {
 main{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    
 }
 nav {
     background-color: orange;
@@ -34,11 +36,19 @@ nav {
     font-size: 40px;
     color: black;
     border: 10px solid rgb(183, 43, 226);
+    
 }
-#link {
-    border: 2px solid black ;
+.link {
+    border-right: 5px solid rgb(183, 43, 226);
+    height: 100%;
+    display: inline-block;
+    padding-right: 20px; 
 }
-#foto {
-    border: 2px solid rgb(183, 43, 226);;
+.foto{
+    border: 4px solid rgb(183, 43, 226);
+    width: 500px;
+}
+body{
+    background-color: orange;
 }
 
