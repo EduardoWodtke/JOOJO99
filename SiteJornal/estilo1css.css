@@ -11,7 +11,6 @@ header {
 }
 #logo{
     width: 10%;
-
 }
 #titulo{
     width: 80%;
@@ -22,13 +21,9 @@ header {
 .noticia{
     font-size: 25px;
     font-family: 'Playfair Display', serif;
-    width: 30%;
+    width:500px;
 }
-main{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column; 
-}
+
 nav {
     background-color: orange;
     height: 60px;
@@ -46,8 +41,7 @@ nav {
 }
 .foto{
     border: 4px solid rgb(183, 43, 226);
-    width: 500px;
-    
+    width: 500px;    
 }
 body{
     background-color: orange;
@@ -58,10 +52,45 @@ footer{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    width: 1857px;
-    display: inline-block;
+    width: 100%;
+    display: block;
     height: 100%;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: 500px 800px 500px;
+    justify-items: normal;
+    padding: 10px;
+}
+
+.noticia-foto1{
+    grid-row: 1/2;
+
+}
+.noticia1{
+    grid-row: 2/3;
+}
+.noticia-foto2{
+    grid-row: 3/4;
+}
+
+.noticia2{
+    grid-row: 4/5;
+}
+
+.noticia-principal{
+    grid-column: 2/span 2;
+    grid-row: 1/span 3;
+    font-size: 40px;
+    margin: 20px;
+}
+.img3{
+    border: 4px rgb(183, 43, 226) solid;
+    margin-left: 30px;
+}
+.textoPrincipal{
+    margin-left: 30px;
 }
 
