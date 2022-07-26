@@ -9,22 +9,22 @@ body{
 
 .conteinerHead{
     display: grid;
-    grid-template-columns: 400px 1340px;
-    grid-template-rows: 200px;
+    grid-template-columns: 400px 1310px 400px;
+    grid-template-rows: 250px;
     background-color: rgb(183, 43, 226);
     overflow: hidden;
 }
 
 .logo{
     width: 200px;
-    height: 200px;
+    height: 250px;
 }
 
 .titulo{
     text-align: center;
     font-size: 150px;
     color: orange;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 @keyframes tituloAnimation{
@@ -75,7 +75,7 @@ body{
 
  .conteinerMain{
     display: grid;
-    grid-template-columns: 600px 600px;
+    grid-template-columns: 600px 600px 600px;
     grid-template-rows: 400px 100px 400px 100px 100px;
  }
 
@@ -91,21 +91,35 @@ body{
     margin: 15px;
  }
 
+ .procurados{
+    font-size: 90px;
+    position: absolute;
+    top:105%;
+    left: 34%;
+ }
+
+            
+ .propaganda{
+    width: 308.6%;
+    height: 100px;
+    border: 3px solid rgb(183, 43, 226);
+ }
+
  .conteinerSlides{
     height: 400px;
     width: 600px;
     overflow: hidden;
     position: absolute;
-    top: 50%;
-    left: 81.6%;
+    top: 60%;
+    left: 47.8%;
     transform: translate(-50%);
 }
 
 .navegation{
     position: absolute;
     bottom: 20px;
-    top: 92%;
-    left: 81.6%;
+    top: 103%;
+    left: 47.8%;
     transform: translate(-50%);
     display: flex;
 }
