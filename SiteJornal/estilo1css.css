@@ -1,4 +1,6 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 body{
     margin: 0%;
@@ -24,7 +26,7 @@ body{
     text-align: center;
     font-size: 150px;
     color: orange;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 @keyframes tituloAnimation{
