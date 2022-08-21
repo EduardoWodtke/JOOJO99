@@ -55,7 +55,7 @@ body{
     border: 6px solid #fff;
     display: grid;
     grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 35px;
+    grid-template-rows: 45px;
     justify-content: space-evenly;
     font-size: 30px;
     padding: 10px;
@@ -66,6 +66,7 @@ body{
     border: 6px solid black;
     border-radius: 20px;
     padding: 4px;
+    box-shadow: 5px 10px 1px;
  }
 
  .BarraNav:hover{
