@@ -1,3 +1,6 @@
 # JOOJO99
-JoJo99
-sadoifhsdoigvdsf9hyvdosvh d90syhv08dfyhvf0ovbh
+JoJo99.
+Dedicado ao professor: Orlando.
+Feito no ano de 2022,
+para escola tecnica IFC campus Araquari.
+Por: Eduardo Roberto Wodtke & Victor Sedlak.
