@@ -20,6 +20,7 @@
     grid-column: span;
     margin-left: 230px;
     margin-bottom: 130px;
+    border: 6px solid rgb(183, 43, 226);
 }
 
 #div01{
