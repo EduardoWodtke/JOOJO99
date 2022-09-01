@@ -1,4 +1,4 @@
-# JOOJO99
+# JOJO99
 JoJo99.
 Dedicado ao professor: Orlando.
 Feito no ano de 2022,
